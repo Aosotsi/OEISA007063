@@ -4,7 +4,7 @@
 
 **Date:** October 21, 2025
 
-This repository presents a proof for the Kimberling expulsion conjecture (OEIS A007063), which asks whether every positive integer eventually appears on its. The proof confirms that the answer is yes.
+This repository presents a proof for the Kimberling expulsion conjecture ([OEIS A007063](url)), which asks whether every positive integer eventually appears on its. The proof confirms that the answer is yes.
 
 ## Problem Statement: The Kimberling Shuffle
 
