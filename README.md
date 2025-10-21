@@ -26,7 +26,7 @@ Using this algorithm, the main question practically writes itself:
 
 Does the sequence of these "expelled" diagonal numbers is `1, 3, 5, 4, 10, 7, ...` (OEIS A007063) remove every single n, n ∈ N? Essentially, **will every positive integer eventually be expelled?**
 
-While the question has been computationally investigated by [Enrique Pérez Herrero]([https://oeis.org/wiki/User:Enrique_P%C3%A9rez_Herrero/Kimberling]) (from 1 to 100,000) and numerous others, a comprehensive proof has been elusive; until now.  
+While the question has been computationally investigated by [Enrique Pérez Herrero](https://oeis.org/wiki/User:Enrique_P%C3%A9rez_Herrero/Kimberling) (from 1 to 100,000) and numerous others, a comprehensive proof has been elusive; until now.  
 
 ## Proof Strategy: Constructing A Funnel Lemma
 
