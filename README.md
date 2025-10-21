@@ -41,7 +41,7 @@ This work proves that, **yes, every integer is eventually expelled**. The proof 
 
 3.  **The Funnel Lemma**: The proof's central argument is the **Funnel Lemma**. We show that for any step `i` and any possible distance `δᵢ`, the trajectory of `n₀` must, within **at most 4 steps**, either hit the diagonal (`δᵢ₊ₖ = 0`) or get strictly closer to it (`|δᵢ₊ₖ| < |δᵢ|`).
 
-This behavior acts like a "funnel," forcing `n₀` inexorably toward the diagonal. An infinite descent in the absolute distance is impossible, so `n₀` must eventually land on the diagonal. This contradicts our initial assumption, proving that a never-expelled integer cannot exist.
+This behavior acts like a "funnel," forcing `n₀` inexorably toward the diagonal. An infinite descent is impossible within the naturals, so `n₀` must eventually land on the diagonal. This contradicts our initial assumption, proving that a never-expelled integer cannot exist.
 
 ## A Hybrid Approach: Computation Meets Theory
 
