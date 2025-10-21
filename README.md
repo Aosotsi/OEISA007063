@@ -1,6 +1,7 @@
 # A Solution to the Kimberling Expulsion Conjecture
 
 **Author:** Anta Osotsi
+
 **Date:** October 21, 2025
 
 This repository presents a proof for the Kimberling expulsion conjecture (OEIS A007063), which asks whether every positive integer eventually appears on the diagonal of a specific dynamically generated array. The proof confirms that the answer is yes.
