@@ -8,7 +8,7 @@ This repository presents a proof for the Kimberling expulsion conjecture (OEIS A
 
 ## Problem Statement: The Kimberling Shuffle
 
-On February 1991, the mathematician Clark Kimberling proposed an intuitively "simple"/straightforward problem in *CRUX MATHEMATICORUM Volume 17, #2*. It involved a pseudo-random process of generating an infinite array of numbers.
+On February 1991, the mathematician Clark Kimberling proposed an intuitvely "simple"/straightforward problem in *CRUX MATHEMATICORUM Volume 17, #2*. It involved a pseudo-random process of generating an infinite array of numbers.
 
 You start with the sequence of positive integers `S₁ = (1, 2, 3, ...)`.
 
@@ -47,7 +47,7 @@ This behavior acts like a "funnel," forcing `n₀` inexorably toward the diagona
 
 To prove the Funnel Lemma holds for all `i`, the proof is split into two parts:
 
-1.  **Finite Computational Verification**: For "small" `i` (from 5 up to 200 in the paper's argument, and extended to 1000 in the included script), the behavior can be complex. We use a Python script to exhaustively check every possible starting condition `(i, δᵢ)`. This brute-force check confirms that the Funnel Lemma holds for over **1 million** initial states, with the maximum steps to descent being exactly 4.
+1.  **Finite Computational Verification**: For "small" `i` (from 5 up to 200 in my paper's argument, and extended to 1000 in the included script), the behavor can be complex. We use a Python script to exhaustively check every possible starting condition `(i, δᵢ)`. This brute-force check confirms that the Funnel Lemma holds for over **1 million** initial states, with the maximum steps to descent being exactly 4.
 
 2.  **Symbolic Asymptotic Proof**: For all `i` greater than our computational cutoff, we use a formal mathematical argument based on interval analysis. This symbolic proof shows that the "funneling" property is an inevitable feature of the system for large `i`, completing the proof for all integers.
 
@@ -74,9 +74,9 @@ The computational claim can be independently verified by running the provided Py
     ```bash
     python funnel_checkV4.py
     ```
-3.  The script will start checking all `(i, δ)` pairs for `i` between 5 and 1000. It will print its progress and a summary upon completion. The key result to look for is `Failures = 0`.
-4.  Optionally, the script will also generate a CSV file `funnel_detailed_results.csv` (approx. 14 MB) containing the step count and trajectory pattern for every successful case. This can be disabled by setting `CSV_OUTPUT = False` in the script.
+3.  The script will start checking all allowed `(i, δ)` pairs for `i` between 5 and 1000. It will print its progress and a summary upon completion. The key result to look for is `Failures = 0`.
+4.  Optionally, the script will also generate a CSV file `funnel_detailed_results.csv` (approx. 13.7 MB) containing the step count and trajectory pattern for every successful case. This can be disabled by setting `CSV_OUTPUT = False` in the script.
 
-The script's successful execution provides strong, reproducible evidence for the finite portion of the proof.
+The script's successful execution provides extremely strong, reproducible evidence for the finite portion of the proof; which holds again, for over 1 million+ (!) pairs.
 
 ---
