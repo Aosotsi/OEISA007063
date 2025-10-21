@@ -6,7 +6,7 @@
 
 This repository presents a proof for the Kimberling expulsion conjecture (OEIS A007063), which asks whether every positive integer eventually appears on the diagonal of a specific dynamically generated array. The proof confirms that the answer is yes.
 
-## The Problem: A 30-Year-Old Shuffle
+## Problem Statement: The Kimberling Shuffle
 
 On February 1991, the mathematician Clark Kimberling proposed an intuitively "simple"/straightforward problem in *CRUX MATHEMATICORUM Volume 17, #2*. It involved a pseudo-random process of generating an infinite array of numbers.
 
@@ -28,7 +28,7 @@ Does the sequence of these "expelled" diagonal numbers is `1, 3, 5, 4, 10, 7, ..
 
 While the question has been computationally investigated by Enrique Pérez Herrero (from 1 to 20,000) and numerous others, a comprehensive proof has been elusive; until now.  
 
-## The Proof Strategy: The Funnel Lemma
+## Proof Strategy: Constructing A Funnel Lemma
 
 This work proves that, **yes, every integer is eventually expelled**. The proof proceeds by contradiction.
 
