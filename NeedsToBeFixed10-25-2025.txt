@@ -1,0 +1,2 @@
+1. I noticed an error in the script's step comparison logic and corrected it. Unforunately, two problems emerged with the observed number of steps to descent.
+2. There is a problem in the boundary conditions of Li. Need to tighten.
